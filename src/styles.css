@@ -1,0 +1,51 @@
+.btn-primary
+{
+    background: linear-gradient(45deg,rgb(68, 53, 53),rgb(159, 104, 211));
+    border-radius: 20px;
+}
+
+.bg-fav
+{
+    background: linear-gradient(45deg,blueviolet,rgb(42, 73, 109));
+    box-shadow: 5px 5px 10px 0px black;
+
+    /* box-shadow: horizontal-shadow vertical-shadow blur spread color-of-the-shadow; */
+    border-radius: 10px;
+}
+/* rgb(77, 77, 109) */
+.bg-secondary
+{
+    background:linear-gradient(45deg,rgb(55,55,82),purple)
+}
+
+.bg-aqua
+{
+    background-color:rgb(142, 142, 201);
+}
+
+.bg-update
+{
+    background-color:rgb(199, 236, 247);
+}
+.breadcrumb
+{
+    background-color:lightgrey;
+}
+
+.myPage
+{
+    border: 1px solid black;
+    padding: 10px;
+}
+.page-item
+{
+    
+    border: 1px solid grey;
+    border-radius: 2px;
+
+}
+
+.bg-light-green
+{
+    background-color:lightgreen
+}

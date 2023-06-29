@@ -1,0 +1,32 @@
+<p>list works!</p>
+
+<table class="table table-curved table-stripped table-hover table-bordered text-center ">
+    <thead class="bg-secondary text-light text-uppercase">
+        <tr>
+            <th>List Id</th>
+            <th> Date </th>
+            <th> Title </th>
+            <th> Status </th>
+            <th> Update </th>
+            <th> Delete </th>
+        </tr>
+    </thead>
+
+    <tbody class="bg-aqua">
+        <tr *ngFor = "let item of list">
+            <td class="mt-5">{{ item.id }}</td>
+            <td>{{ item.date }}</td>
+            <td>{{ item.title }}</td>
+            <td>{{ item.status }}</td>
+            <td>
+                <button class="btn btn-primary  ms-1" (click) = "updateItem(item.id)">Click</button>
+            </td>
+
+            <td>
+                <button class="btn btn-danger ms-1" (click) = "deleteItem(item.id)">Click</button>
+            </td>
+
+        </tr>
+    </tbody>
+
+</table>
